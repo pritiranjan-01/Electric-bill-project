@@ -20,11 +20,11 @@ BgComputeBill()
      setLayout(null);
      setBackground(Color.cyan);
 
-     l1=new Label("  LAST MONTH UNIT");l1.setBackground(Color.PINK);l1.setBounds(100,100,135,25);add(l1);
-     l2=new Label("CURRENT MONTH UNIT");l2.setBackground(Color.PINK);l2.setBounds(100,150,135,25);add(l2);
-     l3=new Label("      BILL AMOUNT");l3.setBackground(Color.PINK);l3.setBounds(100,250,135,25);add(l3);
-     l4=new Label("    UNIT ADVANCED");l4.setBackground(Color.PINK);l4.setBounds(100,200,135,25);add(l4);
-
+     l1=new Label("  LAST MONTH READING");l1.setBackground(Color.PINK);l1.setBounds(50,100,160,25);add(l1);
+     l2=new Label("CURRENT MONTH READING");l2.setBackground(Color.PINK);l2.setBounds(50,150,160,25);add(l2);
+     l3=new Label("             BILL AMOUNT");l3.setBackground(Color.PINK);l3.setBounds(50,250,160,25);add(l3);
+     l4=new Label("         UNIT ADVANCED");l4.setBackground(Color.PINK);l4.setBounds(50,200,160,25);add(l4);
+     
      t1=new TextField();t1.setBounds(250,100,100,25);add(t1);t1.setFont(new Font("Arial",Font.BOLD,15));
      t2=new TextField();t2.setBounds(250,150,100,25);add(t2);t2.setFont(new Font("Arial",Font.BOLD,15));
      t3=new TextField();t3.setBounds(250,250,100,25);add(t3);t3.setFont(new Font("Arial Black",Font.BOLD,12));
