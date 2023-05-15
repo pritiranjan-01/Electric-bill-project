@@ -13,7 +13,7 @@ BgComputeBill()
    {
      
      im=Toolkit.getDefaultToolkit().createImage( "thumb1622.JPG");
-     setTitle("TPCODL BILL GENERATOR");
+     setTitle("ELECTRI BILL GENERATOR");
      setVisible(true);
      setSize(400,400);
      setResizable(true);
